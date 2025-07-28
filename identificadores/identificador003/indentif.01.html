@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*  SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudo-class
+       :: = pseudo-element
+        > = clildren
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(255, 0, 128);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited { /*Quando é um link que foi visitado*/
+            color: rgb(157, 52, 255);
+        }
+        a:hover { /*Ao passar o mouse*/
+            color: rgb(163, 154, 28);
+            text-decoration: underline;
+        }
+        a:active { /*Ao clicar*/
+            color: aqua;
+        }
+        a::after { /*Aparece depois*/
+            content: '[link]';
+            color: rgb(165, 165, 165);
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="external">Youtube</a></li>
+        <li><a href="https://br.pinterest.com/"target="_blank" rel="external">Pinterest</a></li>
+        <li><a href="https://www.google.com/search?q=tradutor&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkxNjc1ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8"target="_blank" rel="external">Tradutor</a></li>
+    </ul>
+</body>
+</html>
