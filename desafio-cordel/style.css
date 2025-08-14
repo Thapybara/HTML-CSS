@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+    font-family: cursive;
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: fantasy;
+}
+
+p.por {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section.normal {
+    background-color: white;
+    margin: 20px;
+    font-size: large;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.572);
+    color: white;
+    max-width: 400px;
+    min-width: 100px;
+    padding: 5px;
+    box-shadow: 1px 1px 8px 8px rgba(0, 0, 0, 0.572);
+    font-size: 30px;
+}
+
+section#img01 {
+    background-image: url(joanhinha-flor.jpg);
+    padding: 100px;
+    background-size: cover;
+    background-position: center center;
+}
+
+p.espaco {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+section#img02 {
+    background-image: url(imagem-livro.jpg);
+    padding: 100px;
+    background-size: cover;
+    background-position: center center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}

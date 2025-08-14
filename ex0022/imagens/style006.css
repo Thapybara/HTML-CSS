@@ -1,17 +1,25 @@
 @charset "UTF-8";
 
 body {
-    height: 100vh;
+    /* height: 100vh;
     background-color: black;
     background-image: url(han-feliz.jpg);
     background-position: center center;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+
+    /* Shorthand - background 
+    color > image > position > repeat > [size] > attachment
+    */
+
+    background: black url(han-feliz.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
 main {
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border: 1px solid purple;
