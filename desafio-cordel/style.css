@@ -18,6 +18,7 @@ header {
 h1 {
     font-size: 80px;
     font-family: fantasy;
+    font-variant: small-caps;
 }
 
 p.por {
