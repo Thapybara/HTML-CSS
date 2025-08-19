@@ -56,6 +56,7 @@ section#img01 {
     padding: 100px;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 p.espaco {
@@ -68,6 +69,7 @@ section#img02 {
     padding: 100px;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 footer {
