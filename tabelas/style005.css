@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.destaque {
+    background-color: red;
+}
+
+col.cint {
+    background-color: red;
+}
+
+col.roxo {
+    background-color: purple;
+}
+
+col.rosa {
+    background-color: hotpink;
+}
