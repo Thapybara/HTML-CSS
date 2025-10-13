@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="form001.css">
+</head>
+<body>
+    <h1>Exmplo de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset style="width: 400px;">
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmax"> <label for="isxmax">Masculino</label> <br>
+            <input type="radio" name="sexo" id="isxfem"> <label for="isxfem">Feminino</label>
+        </fieldset>
+        <fieldset style="width: 400px;">
+            <legend>Membros do Stray Kids</legend>
+            <input type="checkbox" name="skzin" id="iskzin"> <label for="iskzin">I.N</label> <br>
+            <input type="checkbox" name="skzpuppym" id="iskzpuppym"> <label for="iskzpuppym">Seungmin</label> <br>
+            <input type="checkbox" name="skzlix" id="iskzlix"> <label for="iskzlix">Felix</label> <br>
+            <input type="checkbox" name="skzhan" id="iskzhan"> <label for="iskzhan">Han</label> <br>
+            <input type="checkbox" name="skzhyun" id="iskzhyun"> <label for="iskzhyun">Hyunjin</label> <br>
+            <input type="checkbox" name="skzbin" id="iskzbin"> <label for="iskzbin">Changbin</label> <br>
+            <input type="checkbox" name="skzminho" id="iskzminho"> <label for="iskzminho">Lee know</label> <br>
+            <input type="checkbox" name="skzchan" id="iskzchan"> <label for="iskzchan">Bang Chan</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
