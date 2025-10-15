@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iskz">utt do SKZ:</label>
+            <select name="skz" id="iskz">
+                <optgroup label="Mais Novos">
+                    <option value="YJ">I.N</option>
+                    <option value="KS">Seungmin</option>
+                    <option value="FY" selected>Felix</option>
+                    <option value="HJ">Han</option>
+                </optgroup>
+                <optgroup label="Mais velhos">
+                    <option value="WH">Hyunjin</option>
+                    <option value="SC">Changbin</option>
+                    <option value="LM">Lee Know</option>
+                    <option value="BC">Bang Chan</option>
+                </optgroup>
+            </select>
+            <p>
+                <label for="iprof">Profissão</label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option>Idol</option>
+                    <option>Administrador</option>
+                    <option>Professor</option>
+                    <option>Contabilista</option>
+                    <option>Desenvolvedor</option>
+                </datalist>
+            </p>
+            <p>
+                <label for="imsg">Mensagem: </label> <br>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </p>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+
+</html>
